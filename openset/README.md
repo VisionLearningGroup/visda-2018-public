@@ -12,10 +12,10 @@ By downloading these datasets you agree to the following terms:
 
 You can download the datasets with 
     
-    wget http://csr.bu.edu/ftp/visda17/openset/train.tar
+    wget http://csr.bu.edu/ftp/visda/2018/openset/train.tar
     tar xvf train.tar
     
-    wget http://csr.bu.edu/ftp/visda17/openset/validation.tar
+    wget http://csr.bu.edu/ftp/visda/2018/openset/validation.tar
     tar xvf validation.tar  
     
 Images are structured in folders as 
