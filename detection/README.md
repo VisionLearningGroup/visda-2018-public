@@ -30,7 +30,7 @@ A technical report detailing the data generation process will be released in the
 We suggest using train and val splits of COCO17 as a target validation domain. We provide filtered ground truth for source data in two formats: 
 
 - COCO-like annotations that can be found a single dataset.json file in the root
-- `datalist.txt` format with every line following schema `{image_full_name} {class_id1} {xmin1} {ymin1} {xmax1} {ymax1} {class_id2} {xmin2} {ymin2} {xmax2} {ymax2} ... ` i.e. number of bounding boxes can be computed as `(line.split()-1)/5`
+- `datalist.txt` format with every line following schema `{image_full_name} {xmin1} {ymin1} {xmax1} {ymax1} {class_id1} {xmin2} {ymin2} {xmax2} {ymax2} {class_id2}... ` i.e. number of bounding boxes can be computed as `(line.split()-1)/5`
 
 <!---
 ## Baselines and Rules
@@ -62,13 +62,24 @@ The category IDs are as follows:
 > 10 – train  
 > 11 – truck 
  
-Please use the `datalist.txt` format for evaluation, specifically, each submission file should follow schema with *same* order of images as in `coco17-val.txt`: `{class_id1} {confidence1} {xmin1} {ymin1} {xmax1} {ymax1} ...`  
+Please use the `datalist.txt` format for evaluation, specifically, each submission file should follow schema with *same* order of images as in `coco17-val-names.txt`: `{image_full_name} {xmin1} {ymin1} {xmax1} {ymax1} {class_id1} {confidence1}...`  
 
 ### Evaluation Server and Leaderboards
  
-We are using CodaLab to evaluate results and host the leaderboards for this challenge. You can find the detection competition [here](#). Please see the "Evaluation" tab in the competition for more details on leaderboard organization. 
+We are using CodaLab to evaluate results and host the leaderboards for this challenge. You can find the image classification competition [here](https://competitions.codalab.org/competitions/18892). Please see the "Evaluation" tab in the competition for more details on leaderboard organization. 
+
+
+### Submitting to the Evaluation Server
+ 
+Once the servers become available, you will be able to submit your results:
+- Generate "source_results.txt" and "adaptation_results.txt".
+- Place these files into a zip file named [team_name]_submission
+- Submit to CodaLab evaluation server following the instructions below
+
+To submit your zipped result file to the appropriate VisDA Classification challenge click on the “Participate” tab. Select the phase (validation or testing). Select “Submit / View Results, fill in the required fields and click “Submit”. A pop-up will prompt you to select the results zip file for upload. After the file is uploaded, the evaluation server will begin processing. This might take some time. To view the status of your submission please select “Refresh Status”. If the status of your submission is “Failed” please check your file is named correctly and has the right format. You may refer to the scoring output and error logs for more details.
+
+After you submit your results to the evaluation server, you can control whether your results are publicly posted to the CodaLab leaderboard. To toggle the public visibility of your results please select either “post to leaderboard” or “remove from leaderboard.” 
+
 
 ### Feedback and Help
 If you find any bugs please [open an issue](https://github.com/VisionLearningGroup/visda-2018-public/issues).
-
-
