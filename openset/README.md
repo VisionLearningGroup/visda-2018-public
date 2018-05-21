@@ -58,14 +58,14 @@ The category IDs are as follows:
 > 9 – skateboard  
 > 10 – train  
 > 11 – truck  
-> 12 – other (background class)  
+> 12 – unknown (background class)  
  
 
-Submissions will be evaluated by calculating the classification accuracy of each category and then the mean accuracy across all categories. The leaderboard on CodaLab will display all of these scores, and the official ranking will be determined by the mean classification accuracy across all categories. 
+Submissions will be evaluated by calculating the classification accuracy of each category and then the mean accuracy across all categories (known and unknown). The leaderboard on CodaLab will display all of these scores, and the official ranking will be determined by the mean classification accuracy across all categories. 
 
 ### Evaluation Server and Leaderboards
  
-We are using CodaLab to evaluate results and host the leaderboards for this challenge. You can find the image classification competition [here](https://competitions.codalab.org/competitions/19113). Please see the "Evaluation" tab in the competition for more details on leaderboard organization. 
+We are using CodaLab to evaluate results and host the leaderboards for this challenge. You can find the image classification competition [here](https://competitions.codalab.org/competitions/19113). There are two competition leaderboards: the main leaderboard shows results of adapted models and will be used to determine the final team ranks. The expanded leaderboard additionally shows the team's source-only models, i.e. those trained only on the source domain without any adaptation. These results are useful for estimating how much the method improves upon its source-only model, but will not be used to determine team ranks.
 
 ### Submitting to the Evaluation Server
  
