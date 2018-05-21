@@ -61,7 +61,7 @@ The category IDs are as follows:
 > 12 – unknown (background class)  
  
 
-Submissions will be evaluated by calculating the classification accuracy of each category and then the mean accuracy across all categories (known and unknown). The leaderboard on CodaLab will display all of these scores, and the official ranking will be determined by the mean classification accuracy across all categories. 
+Submissions will be evaluated by calculating the classification accuracy of each category and then the mean accuracy across all categories (i.e. known and unknown). The leaderboard on CodaLab will display all of these scores, and the official ranking will be determined by the mean classification accuracy across all categories. 
 
 ### Evaluation Server and Leaderboards
  
