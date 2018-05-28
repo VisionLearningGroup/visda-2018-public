@@ -62,7 +62,7 @@ The category IDs are as follows:
 > 10 – train  
 > 11 – truck 
  
-Please use the `datalist.txt` format for evaluation, specifically, each submission file should follow schema with *same* order of images as in `coco17-val.txt`: `{image_full_name} {xmin1} {ymin1} {xmax1} {ymax1} {class_id1} {confidence1}...`  
+Please use the `datalist.txt` format for evaluation, specifically, each submission file should follow schema with *same* order of images as in `coco17-val.txt`: `{xmin1} {ymin1} {xmax1} {ymax1} {class_id1} {confidence1}...`  
 
 ### Evaluation Server and Leaderboards
  
