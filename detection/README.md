@@ -21,7 +21,7 @@ You might also want to download files containing ground truth boxes:
     wget http://csr.bu.edu/ftp/visda/2018/detection/visda18-detection-train.txt
     wget http://csr.bu.edu/ftp/visda/2018/detection/visda18-detection-test.txt
     wget http://csr.bu.edu/ftp/visda/2018/detection/coco17-train.txt
-    wget http://csr.bu.edu/ftp/visda/2018/detection/coco17-val-names.txt
+    wget http://csr.bu.edu/ftp/visda/2018/detection/coco17-val.txt
 
 Last file only lists file names. 
 
@@ -62,7 +62,7 @@ The category IDs are as follows:
 > 10 – train  
 > 11 – truck 
  
-Please use the `datalist.txt` format for evaluation, specifically, each submission file should follow schema with *same* order of images as in `coco17-val-names.txt`: `{image_full_name} {xmin1} {ymin1} {xmax1} {ymax1} {class_id1} {confidence1}...`  
+Please use the `datalist.txt` format for evaluation, specifically, each submission file should follow schema with *same* order of images as in `coco17-val.txt`: `{image_full_name} {xmin1} {ymin1} {xmax1} {ymax1} {class_id1} {confidence1}...`  
 
 ### Evaluation Server and Leaderboards
  
