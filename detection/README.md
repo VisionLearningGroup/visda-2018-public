@@ -46,7 +46,7 @@ Please refer to the [challenge rules](http://ai.bu.edu/visda-2017/) for specific
 
 ## Evaluating your Model
 
-We use the standart `IOU@0.5` metric for evaluation. Example evaluation script is avaliable in [`eval.py`](eval.py).
+We use the standard `IOU@0.5` metric for evaluation. Example evaluation script is avaliable in [`eval.py`](eval.py).
 
 The category IDs are as follows:
 > 0 – aeroplane  
@@ -66,7 +66,7 @@ Please use the `datalist.txt` format for evaluation, specifically, each submissi
 
 ### Evaluation Server and Leaderboards
  
-We are using CodaLab to evaluate results and host the leaderboards for this challenge. You can find the image classification competition [here](https://competitions.codalab.org/competitions/18892). There are two competition leaderboards: the main leaderboard shows results of adapted models and will be used to determine the final team ranks. The expanded leaderboard additionally shows the team's source-only models, i.e. those trained only on the source domain without any adaptation. These results are useful for estimating how much the method improves upon its source-only model, but will not be used to determine team ranks.
+We are using CodaLab to evaluate results and host the leaderboards for this challenge. You can find the image detection competition [here](https://competitions.codalab.org/competitions/18892). There are two competition leaderboards: the main leaderboard shows results of adapted models and will be used to determine the final team ranks. The expanded leaderboard additionally shows the team's source-only models, i.e. those trained only on the source domain without any adaptation. These results are useful for estimating how much the method improves upon its source-only model, but will not be used to determine team ranks.
 
 
 ### Submitting to the Evaluation Server
