@@ -46,7 +46,7 @@ Please refer to the [challenge rules](http://ai.bu.edu/visda-2017/) for specific
 
 ## Evaluating your Model
 
-We use the standard `IOU@0.5` metric for evaluation. Example evaluation script is avaliable in [`eval.py`](eval.py).
+We use the standard `IOU@0.5` metric for evaluation. <!-- Example evaluation script is avaliable in [`eval.py`](eval.py). -->
 
 The category IDs are as follows:
 > 0 – aeroplane  
