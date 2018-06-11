@@ -42,8 +42,8 @@ Please refer to the [challenge rules](http://ai.bu.edu/visda-2017/) for specific
 
 To evaluate the performance of your adaptation model, you should:
 - Train your model with training data (with labels) and adapt it on the validation data (without labels).
-- Predict labels for images in the validation set. The results file should follow the format of one category ID prediction per line, in the order of images provided by `image_list.txt`.
-- Calculate the mean accuracies for each category and the overall mean of these accuracies. You are encouraged to upload your results to the evaluation server to compare your performance with that of other participants. 
+- Predict labels for images in the validation set. The results file should follow the format of one category ID prediction per line, in the order of images provided by `image_list.txt`. Please see a sample submission file [here](https://github.com/VisionLearningGroup/visda-2018-public/edit/master/openset/results/example_predictions.txt).
+- Calculate the mean accuracies for each category and the overall mean of these accuracies. We have provided the evaluation script used by our server ([eval.py](https://github.com/VisionLearningGroup/visda-2018-public/edit/master/openset/eval.py)) so that you may evaluate your results offline. You are encouraged to upload your results to the evaluation server to compare your performance with that of other participants. 
 
 The category IDs are as follows:
 > 0 – aeroplane  
