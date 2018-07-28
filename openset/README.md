@@ -17,14 +17,21 @@ You can download the datasets with
     
     wget http://csr.bu.edu/ftp/visda/2018/openset/validation.tar
     tar xvf validation.tar  
+
+    wget http://csr.bu.edu/ftp/visda/2018/openset/test.tar
+    tar xvf test.tar  
     
-Images are structured in folders as 
+Train/val images are structured in folders as 
 
 - `{split}/{category}/{object_id}.jpg`
 
+Test images are structured as
+
+- `test/{trunk_id}/{md5_of_file}.jpg`
+
 with a  single `image_list.txt` file in the root or each dataset that lists all images and corresponding labels for train/val subset. For test data, only images are provided. 
 
-A technical report detailing the data generation process will be released in the near future. 
+
 
 <!---
 ## Baselines and Rules
