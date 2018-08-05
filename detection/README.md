@@ -25,7 +25,10 @@ You might also want to download files containing ground truth boxes:
 
 Last file only lists file names. 
 
-A technical report detailing the data generation process will be released in the near future. 
+### Test Data Release
+The test dataset can be accessed with the link:
+http://csr.bu.edu/ftp/visda/2018/detection/detection_test.tar
+
 
 We suggest using train and val splits of COCO17 as a target validation domain. We provide filtered ground truth for source data in two formats: 
 
