@@ -25,9 +25,7 @@ You might also want to download files containing ground truth boxes:
 
 Last file only lists file names. 
 
-### Test Data Release
-The test dataset can be accessed with the link:
-http://csr.bu.edu/ftp/visda/2018/detection/detection_test.tar
+
 
 
 We suggest using train and val splits of COCO17 as a target validation domain. We provide filtered ground truth for source data in two formats: 
@@ -46,6 +44,11 @@ We have several baseline models with data readers in the [`/model`](model) folde
 
 Please refer to the [challenge rules](http://ai.bu.edu/visda-2017/) for specific guidelines your method must follow.
 -->
+
+### Test Data Release
+The test dataset can be downloaded with:
+ 
+    wget http://csr.bu.edu/ftp/visda/2018/detection/detection_test.tar
 
 ## Evaluating your Model
 
