@@ -12,7 +12,20 @@ You can find the development kits for the two competition tracks by following th
 If you consider using data, code or its derivatives, please consider citing:
 
 ```
-TDB
+@article{peng2017visda,
+  title={Visda: The visual domain adaptation challenge},
+  author={Peng, Xingchao and Usman, Ben and Kaushik, Neela and Hoffman, Judy and Wang, Dequan and Saenko, Kate},
+  journal={arXiv preprint arXiv:1710.06924},
+  year={2017}
+}
+
+@article{Peng2018Syn2RealAN,
+  title={Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation},
+  author={Xingchao Peng and Ben Usman and Kuniaki Saito and Neela Kaushik and Judy Hoffman and Kate Saenko},
+  journal={CoRR},
+  year={2018},
+  volume={abs/1806.09755}
+}
 ```
 
 If you find any bugs please [open an issue](https://github.com/VisionLearningGroup/visda-2018-public/issues).
